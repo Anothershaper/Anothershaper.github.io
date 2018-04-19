@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-19T06:22:09.091Z</updated>
+  <updated>2018-04-19T06:32:11.894Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>zeroJAVA入门2来源于imooc</title>
+    <link href="http://yoursite.com/2018/04/19/zero-JAVA%E5%85%A5%E9%97%A82%E6%9D%A5%E6%BA%90%E4%BA%8Eimooc/"/>
+    <id>http://yoursite.com/2018/04/19/zero-JAVA入门2来源于imooc/</id>
+    <published>2018-04-19T06:23:25.000Z</published>
+    <updated>2018-04-19T06:32:11.894Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="ZERO-JAVA入门2"><a href="#ZERO-JAVA入门2" class="headerlink" title="ZERO JAVA入门2"></a>ZERO JAVA入门2</h1><h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><p>java是单继承的，子类继承父类的所有属性和方法，<strong>（private修饰的无效哦）</strong>，实现代码复用。<a id="more"></a><br>语法格式：<br><img src="http://p7a4v4pk6.bkt.clouddn.com/4T%25I%7BTU5WI%288%25J72K%60KBG18.png" alt="image"><br>用eclipse建立newclass时该怎样建立关联呢？<br><img src="http://p7a4v4pk6.bkt.clouddn.com/UX1%25G%60%7BZDH~H%7BP@%5D$KF%7BD@E.png" alt="image">  </p><h2 id="方法的重写"><a href="#方法的重写" class="headerlink" title="方法的重写"></a>方法的重写</h2><ol><li>什么是方法的重写：<br>如果子类对继承父类的方法不满意，是可以重写继承父类的方法，当调用方法时会优先调用子类的方法。  </li><li>语法规则：<br>a、返回值类型<br>b、参数类型及个数<br>c、方法名<br>都要与父类的方法相同才叫方法的重写  <h2 id="继承的初始化顺序"><a href="#继承的初始化顺序" class="headerlink" title="继承的初始化顺序"></a>继承的初始化顺序</h2></li><li>初始化父类再初始化子类</li><li>先执行初始化对象的属性，再执行构造方法中的初始化。<br><img src="http://p7a4v4pk6.bkt.clouddn.com/W8U5%5DROYBB2$UFV%29UFPO%29WJ.png" alt="image">  <h2 id="java中的final关键字"><a href="#java中的final关键字" class="headerlink" title="java中的final关键字"></a>java中的final关键字</h2>使用final关键字做标识有“最终”的含义<br><strong>final可以修饰类，方法，属性和变量。</strong><br>final修饰类的时候则该类不允许被继承，<br>final修饰方法时，则该方法不允许被覆盖（重写），<br>final修饰属性时，则该类的属性不会进行 隐式的初始化（类的初始化必须有值），或者在构造方法时赋值（只能二选一）<br>final修饰变量时，则该变量只能赋一次值，即变为常量。# ZERO JAVA入门2  <h2 id="继承-1"><a href="#继承-1" class="headerlink" title="继承"></a>继承</h2>java是单继承的，子类继承父类的所有属性和方法，<strong>（private修饰的无效哦）</strong>，实现代码复用。<br>语法格式：<br><img src="http://p7a4v4pk6.bkt.clouddn.com/4T%25I%7BTU5WI%288%25J72K%60KBG18.png" alt="image"><br>用eclipse建立newclass时该怎样建立关联呢？<br><img src="http://p7a4v4pk6.bkt.clouddn.com/UX1%25G%60%7BZDH~H%7BP@%5D$KF%7BD@E.png" alt="image">  <h2 id="方法的重写-1"><a href="#方法的重写-1" class="headerlink" title="方法的重写"></a>方法的重写</h2></li><li>什么是方法的重写：<br>如果子类对继承父类的方法不满意，是可以重写继承父类的方法，当调用方法时会优先调用子类的方法。  </li><li>语法规则：<br>a、返回值类型<br>b、参数类型及个数<br>c、方法名<br>都要与父类的方法相同才叫方法的重写  <h2 id="继承的初始化顺序-1"><a href="#继承的初始化顺序-1" class="headerlink" title="继承的初始化顺序"></a>继承的初始化顺序</h2></li><li>初始化父类再初始化子类</li><li>先执行初始化对象的属性，再执行构造方法中的初始化。<br><img src="http://p7a4v4pk6.bkt.clouddn.com/W8U5%5DROYBB2$UFV%29UFPO%29WJ.png" alt="image">  <h2 id="java中的final关键字-1"><a href="#java中的final关键字-1" class="headerlink" title="java中的final关键字"></a>java中的final关键字</h2>使用final关键字做标识有“最终”的含义<br><strong>final可以修饰类，方法，属性和变量。</strong><br>final修饰类的时候则该类不允许被继承，<br>final修饰方法时，则该方法不允许被覆盖（重写），<br>final修饰属性时，则该类的属性不会进行 隐式的初始化（类的初始化必须有值），或者在构造方法时赋值（只能二选一）<br>final修饰变量时，则该变量只能赋一次值，即变为常量。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;ZERO-JAVA入门2&quot;&gt;&lt;a href=&quot;#ZERO-JAVA入门2&quot; class=&quot;headerlink&quot; title=&quot;ZERO JAVA入门2&quot;&gt;&lt;/a&gt;ZERO JAVA入门2&lt;/h1&gt;&lt;h2 id=&quot;继承&quot;&gt;&lt;a href=&quot;#继承&quot; class=&quot;headerlink&quot; title=&quot;继承&quot;&gt;&lt;/a&gt;继承&lt;/h2&gt;&lt;p&gt;java是单继承的，子类继承父类的所有属性和方法，&lt;strong&gt;（private修饰的无效哦）&lt;/strong&gt;，实现代码复用。
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>zero的java入门来源自慕课网</title>
